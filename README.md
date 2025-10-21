@@ -7,8 +7,8 @@ This JSON schema defines a flexible system for creating request missions. Each m
 
 ### **Basic Mission Metadata**
 - **`Id`**: Unique numeric identifier for the mission
-- **`Category`**: The item category this mission belongs to (maps to RequestCategory enum | See below)
-- **`Special`**: Special conditions like seasons, festivals, or birthdays (maps to Special enum | See below)
+- **`Category`**: The item category this mission belongs to (maps to RequestCategory enum. See below)
+- **`Special`**: Special conditions like seasons, festivals, or birthdays (maps to Special enum. See below)
 - **`Characters`**: Array of character IDs who can make this request
     - 0 specifies all characters
 
@@ -67,7 +67,7 @@ This JSON schema defines reward group configurations for distributing items to p
 
 ### **Basic Group Metadata**
 - **`Id`**: Unique numeric identifier for the reward group
-- **`Category`**: The category this reward group belongs to (maps to RequestCategory enum | See below)
+- **`Category`**: The category this reward group belongs to (maps to RequestCategory enum. See below)
 
 #### **Item Identification**
 - **`ItemIds`**: Array of item id's that can be awarded
