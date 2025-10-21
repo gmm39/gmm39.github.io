@@ -7,7 +7,6 @@ This JSON schema defines a flexible system for creating request missions. Each m
 
 ### **Basic Mission Metadata**
 - **`Id`**: Unique numeric identifier for the mission
-- **`Category`**: The item category this mission belongs to (maps to RequestCategory enum. See below)
 - **`Special`**: Special conditions like seasons, festivals, or birthdays (maps to Special enum. See below)
 - **`Characters`**: Array of character IDs who can make this request
     - 0 specifies all characters
@@ -29,6 +28,7 @@ The `Items` array contains one or more item sets that define what can fulfill th
   - `1-14` = Specific quality levels (1 = 0.5 stars, 14 = 7 stars)
   - `-1` = Any quality acceptable
   - `-2` = Dynamic quality based on player progress
+- **`Category`**: The item category this mission belongs to (maps to RequestCategory enum. See below)
 - **`PickOne`**: When `true`, one item randomly chosen from the set is required
 - **`DifficultChance`**: Probability (0.0-1.0) that the mission will be "difficult"
   - Difficult missions multiply ItemStack values and add quality requirements
