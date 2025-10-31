@@ -21,8 +21,8 @@ The `Items` array contains one or more item sets that define what can fulfill th
   - Mission group numbers (paired with ItemType 2)
 - **`ItemType`**: Specifies how to interpret each ItemId:
   - `0` = Individual item ID
-  - `1` = Category number (any item from that category)
-  - `2` = Mission group number (pre-defined item groups)
+  - `1` = Category ID (any item from that category)
+  - `2` = Mission group ID (pre-defined item groups)
 - **`ItemStack`**: Required quantity for each corresponding item
 - **`ItemQuality`**: Quality requirements using a half-star system:
   - `1-14` = Specific quality levels (1 = 0.5 stars, 14 = 7 stars)
