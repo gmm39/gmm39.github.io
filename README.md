@@ -72,9 +72,10 @@ This JSON schema defines reward group configurations for distributing items to p
 #### **Item Identification**
 - **`ItemIds`**: Array of item id's that can be awarded
 - **`ItemStack`**: Quantity of each corresponding item to award
+    - `-2` = Dynamic quantity based on price of all required items
 - **`ItemQuality`**: Determines the quality level of awarded items:
     - `1-14` = Specific quality levels using half-star increments (1 = 0.5 stars, 14 = 7 stars)
-    - `-2` = Dynamic quality based on average required item quality
+    - `-2` = Dynamic quality based on player progress
 
 ## Notes
 
